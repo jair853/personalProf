@@ -1,0 +1,253 @@
+.title-section {
+    text-align: center;
+    font-size: 2vw;
+}
+.paragraph {
+    text-align: justify;
+    padding: 1vw;
+}
+span {
+    float: left;
+    width: 0.8em;
+    font-size: 300%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 80%;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.5vw;
+}
+li {
+    font-size: 1.3vw;
+    padding-top: 0.5vw;
+    width: 13em;
+}
+li:hover {
+    color: blue;
+    cursor: pointer;
+}
+.description {
+    text-align: justify;
+    padding: 1vw 1vw 0vw 1vw;
+}
+aside {
+    width: 25%;
+    padding-top: 1vw;
+    margin-top: 0.5vw;
+    padding-left: 1vw;
+    margin-left: 1vw;
+    float: right;
+}
+.baile {
+    float: left;
+}
+.futbol {
+    float: inline-start;
+}
+.familia {
+    width: 19vw;
+    height: 15vw;
+    padding-bottom: 1vw;
+}
+@media (min-width: 850vw) {
+    aside {
+        width: 90%;
+        padding-right: 1vw;
+    }
+    img {
+        width: 90%;
+    }
+    .baile {
+        padding-right: 1vw;
+        width:99%;
+    }
+}
+div table {
+    width: 98%;
+    border: solid 0.2vw black;
+    border-collapse: collapse;
+    margin-left: 1vw;
+    align-self: center;
+    margin-bottom: 1vw;
+}
+div table caption {
+    text-align: center;
+    border: solid 0.2vw black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+table th {
+    text-align: center;
+    border: solid 0.2vw black;
+}
+table td {
+    text-align: left;
+    border: solid 0.2vw black;
+    padding: 0.3vw;
+}
+tr:nth-child(even), table caption {
+    background-color: rgb(236, 234, 234);
+}
+tr:hover {
+    background-color: rgb(179, 197, 197);
+}
+td:nth-child(even) {
+    text-align: justify;
+}
+td div p {
+    display: none;
+    position: absolute;
+    background-color: rgb(147, 150, 153);
+    padding: 2vw;
+}
+td:hover div p {
+    display: block;
+    float: right;
+    width:60vw;
+    height: fit-content;
+    margin-top: 1.2vw;
+}
+.int1, .int2 {
+    float: left;
+    padding: 1vw;
+    margin: 0vw 1vw 2vw 8vw;
+}
+.int1 {
+    width: 20vw;
+    background-color: gray;
+    text-align: center;
+}
+.int2 {
+    width: 42vw;
+    height: 18vw;
+    background-color: beige;
+    text-align: justify;
+}
+.likes {
+    display:inline-block;
+    padding: 0.2vw;
+    border: ridge 0.1vw rgb(202, 195, 187);
+    background-color: rgb(172, 177, 177);
+    margin-top: 0.4vw;
+    margin-left: 0.3vw;
+}
+.likes:hover,
+.elementList:hover {
+    color: initial;
+    cursor: default;
+}
+.more {
+    height: 41vw;
+}
+.sport {
+    height: 26vw;
+}
+.ordList {
+    display: flex;
+    column-gap: 4vw;
+}
+.elementList {
+    float: left;
+    text-align: left;
+    padding: 1vw;
+    margin-right: 1vw;
+    background-color: gray;
+    border: ridge 0.2vw rgb(163, 158, 148);
+}
+.tbsched {
+    border: ridge 0.2vw gray;
+    border-collapse:collapse;
+}
+.hdsched {
+    background-color:darkgray;
+}
+.rowhd {
+    background-color: gainsboro;
+}
+.celld, .cellhour {
+    width: 2vw;
+}
+.cellhour {
+    font-size: medium;
+}
+.univ {
+    display: block;
+}
+.univD, .univA {
+    width: 50vw;
+    height: 40vw;
+}
+.pd::after {
+    content: "😉";
+}
+.c {
+    width: 50vw;
+    height: fit-content;
+    border: ridge 0.4vw darkgray;
+    float: left;
+    margin: 0vw 0vw 1vw 1vw;
+    padding: 0.5vw;
+}
+.clang {
+    font-size: 1.4vw;
+    text-align: left;
+}
+h2 {
+    text-align: center;
+}
+.formulario {
+    width: 30vw;
+    margin: 0 auto;
+    padding: 1vw;
+    border: ridge 0.5vw gainsboro;
+    border-radius: 0.8vw;
+    box-shadow: 0.8vw 0.9vw 2vw rgba(0,0,0, 0.3);
+    background-color: gray;
+}
+.formulario label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.formulario input {
+    width: 13vw;
+    border: inset 0.2vw gray;
+    margin: 0.3vw 0vw 0vw 2vw;
+    padding: 0vw 0vw 0vw 0vw;
+    float: right;
+}
+input + hr, textarea + hr,
+footer + hr {
+    border: none;
+}
+.formulario textarea {
+    width: 12vw;
+    height: 0.9vw;
+    margin: 0.3vw 0vw 0vw 2vw;
+    border: inset 0.2vw gray;
+}
+.formulario input[type=submit]{
+    width: 7vw;
+    border: outset 0.2vw rgb(99, 97, 97);
+    border-radius: 0.5vw;
+    float:inline-start;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.formulario input:hover {
+    cursor: pointer;
+}
+footer h3:nth-child(2) {
+    color: aliceblue;
+    margin: 0.8vw;
+}
+
+footer div > p {
+    font-size: 1.3vw;
+    color: aliceblue;
+    padding-left: 1vw;
+}
+footer div h2 {
+    color: aliceblue;
+}

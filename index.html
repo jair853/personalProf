@@ -1,0 +1,2201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jair Socarrás-Home page</title>
+    <link rel="stylesheet" href="styles/style1.css">
+    <link rel="stylesheet" href="styles/style2.css">
+    <script src="/scripts/javascInteract.js"></script>
+</head>
+
+<body class="maincontainer">
+    <section class="first_div">
+        <header>
+            <h2>Jair Socarrás</h2>
+            <div class="menu">
+                <a href="#" class="nav-menu">Acerca de</a>
+                <div class="submenu">
+                    <a href="">
+                        <p class="select" onclick="displayElement('historia', event)">
+                            Mi Historia
+                        </p>
+                    </a>
+                    <a href="">
+                        <p class="select" onclick="displayElement('perfil', event)">
+                            Mi Perfil
+                        </p>
+                    </a>
+                    <a href="">
+                        <p class="select" onclick="displayElement('intereses', event)">
+                            Mis Intereses
+                        </p>
+                    </a>
+                    <a href="">
+                        <p class="select" onclick="displayElement('compromisos', event)">
+                            Mis Compromisos
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="#" class="nav-menu">Mis Estudios</a>
+                <div class="submenu">
+                    <a href="">
+                        <p class="select" onclick="displayElement('universidad', event)">
+                            Universidad
+                        </p>
+                    </a>
+                    <a href="">
+                        <p class="select" onclick="displayElement('master', event)">
+                            Postgrado/Master
+                        </p>
+                    </a>
+                    <a href="">
+                        <p class="select" onclick="displayElement('otrosEst', event)">
+                            Otros estudios
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="#" class="nav-menu">Mi Experiencia</a>
+                <div class="submenu">
+                    <a href="">
+                        <p class="select" onclick="displayElement('instSena', event)">
+                            Instructor Sena
+                        </p>
+                    </a>
+                    <a href="">
+                        <p class="select" onclick="displayElement('gestEmp', event)">
+                            Gestión Empresarial
+                        </p>
+                    </a>
+                    <a href="">
+                        <p class="select" onclick="displayElement('estProy', event)">
+                            Estructuración de Proyectos
+                        </p>
+                    </a>
+                    <a href="">
+                        <p class="select" onclick="displayElement('gestProy', event)">
+                            Gestión de Proyectos
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="#" class="nav-menu">Mis Logros</a>
+                <div class="submenu">
+                    <a href="">
+                        <p class="select" onclick="displayElement('progLog', event)">
+                            Programación
+                        </p>
+                    </a>
+                    <a href="">
+                        <p class="select" onclick="displayElement('anDatLog', event)">
+                            Análisis de datos
+                        </p>
+                    </a>
+                    <a href="">
+                        <p class="select" onclick="displayElement('estProyLog', event)">
+                            Estructuración de Proyectos
+                        </p>
+                    </a>
+                    <a href="">
+                        <p class="select" onclick="displayElement('gestProyLog', event)">
+                            Gestión de Proyectos
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="#final" class="nav-menu">Contacto</a>
+            </div>
+        </header>
+    </section>
+    <!-- Contenedor principal-->
+    <div id="infoMain" class="mainInfo">
+        <div id="closeBoton">
+            <div class="btonCerrar">
+                <svg height="18" width="18" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0" y1="0" x2="18" y2="18" style="stroke:rgb(0, 0, 0); stroke-width:2" />
+                    <line x1="18" y1="0" x2="0" y2="18" style="stroke:rgb(0, 0, 0); stroke-width:2" />
+                </svg>
+            </div>
+            <section id="menuList" class="submain">
+                <ul class="subList">Herramientas, Técnicas y Metodologías
+                    <a href="#">
+                        <li class="enlace" onclick="displayElement('herrGestProy', event)">Gestión de proyectos</li>
+                    </a>
+                    <a href="#">
+                        <li class="enlace" onclick="displayElement('herrAnDat', event)">Análisis de datos</li>
+                    </a>
+                    <a href="#">
+                        <li class="enlace" onclick="displayElement('gestTareas', event)">Gestión de tareas</li>
+                    </a>
+                </ul>
+            </section>
+        </div>
+        <section class="submain contain-left">
+            <a href=""><button id="btnMenu" class="menuBtn" type="button">
+                    <svg height="45" width="45" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="-8" y1="8" x2="20" y2="8" style="stroke:rgb(0, 0, 0); stroke-width:4" />
+                        <line x1="-8" y1="16" x2="20" y2="16" style="stroke:rgb(0, 0, 0); stroke-width:4" />
+                        <line x1="-8" y1="24" x2="20" y2="24" style="stroke:rgb(0, 0, 0); stroke-width:4" />
+                    </svg>
+                </button></a>
+        </section>
+
+        <section id="contain-center" class="submain contain2">
+            <div id="historia">
+                <h4 class="title-section">
+                    Mi Historia
+                </h4>
+                <p class="paragraph">Hola, bienvenid@ a mi página web. Es un gusto tenerte por acá. Vamos a hacer un
+                    recorrido por el sitio, para que conozcas
+                    un poco acerca de mí, de dónde vengo y quienes son las personas más importantes de mi vida.</p>
+                <ul>Contenido
+                    <a href="#miCyC">
+                        <li>
+                            Mi ciudad y mi cultura
+                        </li>
+                    </a>
+                    <a href="#miMyP">
+                        <li>
+                            Mi música, Mi Pasión
+                        </li>
+                    </a>
+                    <a href="#misDep">
+                        <li>
+                            Mis Deportes. Mis fortalezas
+                        </li>
+                    </a>
+                    <a href="#miF">
+                        <li>
+                            Mi Familia. Mis seres amados
+                        </li>
+                    </a>
+                </ul>
+                <hr>
+                <div class="description">
+                    <h4 id="miCyC">Un poco de historia sobre mi ciudad y mi cultura</h4>
+                    <span>S</span>oy nacido en <b>Valledupar</b>, la capital del departamento del <b>Cesar</b> en el
+                    hermoso país de <strong>Colombia.</strong> Mi ciudad, <dfn><strong>Valledupar,</strong></dfn> es una
+                    mezcla
+                    de cultura y folklor cuyas raíces se remontan a la época de la colonia, cuando algunos de los
+                    españoles, en busca de buenas tierras para
+                    la ganadería, llegaron a lo que se conoce como el <strong>Valle del Cacíque UPAR,</strong>de allí su
+                    nombre:<i> Valle de Upar,
+                        Valledupar.</i>
+                    <aside><img src="/Laboratorio13_Entregable/images/instMusicales.jpg" alt=""></aside>
+                    Este fue un territorio gobernado por el cacique de la comarca Upar, perteneciente a la tribu
+                    indígena Chimila.
+                    Valledupar también es conocida como la capital mundial del Vallenato, un hermoso tipo de música, que
+                    se interpreta principalmente con tres instrumentos musicales: <i>el acordeón, la caja y la
+                        guacharaca.</i>
+                    <hr>
+                    <h4 id="miMyP">Mi música. Mi Pasión</h4>
+                    <span>A</span>mante de la música, pero apasionado con la música de mi tierra, <strong>El
+                        Vallenato</strong>. Un género cargado de sabor, tradición e historia, pero
+                    también de mucha poesía y humor sano. Como buen amante de la música, también lo soy del baile. Me
+                    convertí en un buen bailarín a corta edad, cuando
+                    en el pueblo de mi bendita madre, <i>el corregimiento de la Vega Arriba,</i> un pequeño pueblo
+                    ubicado en las faldas de la majestuosa <b><i>Sierra Nevadad
+                            de Santa Marta</i></b> y bañado por el legendario Rio Badillo, acompañaba a mis padres a las
+                    por aquel entonces famosas, casetas;<aside class="baile"><img src="images/baile.png" alt=""></aside>
+                    <dfn>las casetas</dfn>, eran
+                    unos espacios construidos y/o organizados en los pueblos de la Costa Norte de Colombia, en los que
+                    sus habitantes y visitantes, se daban cita en la época de
+                    carnavales para disfrutar de buena música, los amigos y trago.
+                    <hr>
+                    <h4 id="misDep">Mis Deportes. Mis Fortalezas</h4>
+                    Desde muy pequeño tuve gran inclinación por el deporte, demostrando habilidad para desempeñarme en
+                    varios de ellos, tales como:
+                    <i>baloncesto, fútbol, voleibol y atletismo.</i> Sin embargo, mi deporte preferido es el fútbol,
+                    <aside class="futbol"><img src="images/futbol.jpg" alt=""></aside>
+                    el cual tuve la oportunidad de practicar a nivel competitivo
+                    en la selección de mi amado plantel educativo, <i>el colegio Instpecam,</i> en la época de
+                    bachiller. Me desempeñé como volante de marca
+                    y tuve el honor de ser campeón del torneo intercolegiado en el año de 1995, en donde vencimos en la
+                    final al también prestigioso colegio
+                    Nacional Loperena. <aside><img src="images/ciencias.jpg" alt=""></aside> Pero no solo el deporte fue
+                    una de mis fortalezas, también en los estudios destaqué, posicionándome en los primeros lugares
+                    de mi salón de clases, siendo especialmente bueno en las áreas de matemáticas, incluyendo, algebra,
+                    trigonometría y cálculo, así como en física,
+                    química y biología.
+                    <hr>
+                    <h4 id="miF">Mi Familia. Mis seres amados</h4>
+                    <span>P</span>erteneciente a una humilde y trabajadora familia de la ciudad de Valledupar, nací y
+                    crecí en un hogar conformado por 4 hermanos y mis padres.
+                    Mis hermanos: <strong>Omar, Jorge y José,</strong> y mis amados padres: <strong>José y
+                        Aida,</strong> a quienes debo no solo la vida, sino, quien soy.
+                    Mi hogar siempre estuvo colmado de alegría, con los altibajos de cada familia, pero a pesar de todo
+                    lleno de amor y apoyo mutuo, y prueba de ello
+                    se puede ver en las excelentes relaciones y el soporte entre mis hermanos y yo y la unidad con
+                    nuestros padres. <aside><img class="familia" src="images/familia.jpeg" alt=""></aside>
+                    Gracias a mi familia paterna, recibí las bases para conformar<strong> mi familia actual,</strong> mi
+                    hogar, conformado por dos hermosas hijas y una
+                    maravillosa mujer que es mi Esposa. Mis hijas <strong>Clara y Andrea</strong> y mi amada esposa
+                    <strong>Silvia</strong> son el motor de mi vida,
+                    la razón por la que cada día despierto dándole gracias a Dios y por quienes me motivo para dar lo
+                    mejor de mi en cada momento y en cada reto.
+                </div>
+            </div>
+            <div id="perfil" class="mostrar">
+                <h4 class="title-section">
+                    Mi Perfil
+                </h4>
+                <p class="paragraph">
+                    Profesional en <strong>Ingeniería Agroindustrial</strong>, Master en <b>Direccionamiento
+                        Estratégico, Planificación y Control de la Gestión.</b>
+                    Instructor en procesamiento de Alimentos, con más de 5 años de experiencia y Evaluador por
+                    Competencias del Servicio Nacional de Aprendizaje, <i>SENA</i>.
+                    Con más de 3 años de experiencia en estructuración y evaluación de proyectos, así como en gestión y
+                    coordinación de proyectos. Estudiante de Análisis de datos y programación, en práctica. Te invito a
+                    que
+                    a continuación des un vistazo a mis principales habilidades o fortalezas; puedes pasar el puntero
+                    del
+                    mouse por cada uno de los cargos asociados a mis habilidades para que conozcas más en detalle de que
+                    manera
+                    cada experiencia ha contribuido en el desarrollo de mis habilidades.
+                </p>
+                <table>
+                    <caption>
+                        Perfil profesional
+                    </caption>
+                    <tr>
+                        <th>
+                            Habilidad
+                        </th>
+                        <th>
+                            Ocupación o Experiencia asociada
+                        </th>
+                    </tr>
+                    <tr>
+                        <td rowspan="5">
+                            Liderazgo
+                        </td>
+                        <td>
+                            Coordinador/Ejecutor del proyecto de Alianzas Productivas denominado ASOPROCASINES II
+                            <div>
+                                <p> Función: Dirigir, coordinar, gestionar, ejecutar <br>
+                                    Objeto: equipo de trabajo, recursos, entregables, informes y plan operativo <br>
+                                    Equipo a cargo: Interdisciplinario de 3 profesionales <br>
+                                    Especialidad de los miembros del equipo: Ingeniero Agrónomo, <br>
+                                    Profesional Socio Empresarial y Técnico Agrícola.
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gerente del Centro Regional de Atención para Víctimas del municipio de Valledupar
+                            <div>
+                                <p>
+                                    Función: Liderar, coordinar, gestionar <br>
+                                    Objeto: atención al ciudadano, recursos para el funcionamiento del Centro, horarios
+                                    de atención <br>
+                                    Volumen de usuarios: 500 diarios <br>
+                                    Equipo a cargo: Interdisciplinario de más de 40 profesionales <br>
+                                    Especialidad de los miembros del equipo: atención al cliente, psicología,
+                                    empleabilidad, <br>
+                                    asesoramiento jurídico y atención psicosocial.
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Coordinador de Producción de la empresa Lácteos Primavera de Valledupar
+                            <div>
+                                <p>
+                                    Función: Coordinar, planificar <br>
+                                    Objeto: turnos, responsables, recursos y
+                                    tiempos de entrega al área de ventas<br>
+                                    Equipo a cargo: 40 operarios en producción <br>
+                                    Especialidad de los miembros del equipo: Operarios <br>
+                                    de las áreas de Queso mozarella, Queso costeño y Arequipe.
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Especialista financiero del roster de estructuración de proyectos del Fondo Colombia
+                            en Paz
+                            <div>
+                                <p>
+                                    Función: Coordinar <br>
+                                    Objeto: equipo interdisciplinario, sesiones con las
+                                    partes interesadas <br> del proyecto: beneficarios, cofinanciadores y
+                                    aliados comerciales <br>
+                                    Equipo a cargo: Interdisciplinario de 7 profesionales <br>
+                                    Especialidad de los miembros del equipo: producción agropecuaria, <br>
+                                    gestión comercial, gestión social, análisis financiero y gestión ambiental.
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Coordinador del componente no agropecuario del proyecto de Reintegración <br>
+                            Económica en municipios priorizados por el proceso de paz en Colombia
+                            <div>
+                                <p>
+                                    Función: Liderar y coordinar <br>
+                                    Objeto: Formación en áreas productivas, asociatividad y comercialización, <br>
+                                    entrega de herramientas, equipos y materiales para la unidad productiva <br>
+                                    Equipo a cargo: Interdisciplinario de 5 profesionales <br>
+                                    Especialidad de los miembros del equipo: gastronomía,
+                                    turismo, producción de alimentos, <br>mecánica de motos, asociatividad y
+                                    comercialización.
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">
+                            Trabajo en equipo
+                        </td>
+                        <td>
+                            Coordinador/Ejecutor del proyecto de Alianzas Productivas denominado ASOPROCASINES II.
+                            <div>
+                                <p>
+                                    Función: Apoyar, motivar, acompañar, orientar <br>
+                                    Objeto: Actividades de fortalecimiento, cumplimiento de metas y<br>
+                                    planeación de actividades
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gerente del Centro Regional de Atención para Víctimas del municipio de Valledupar
+                            <div>
+                                <p>
+                                    Función: Apoyar, estimular, promover <br>
+                                    Objeto: Atención al ciudadano, integridad del funcionario
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Especialista financiero del roster de estructuración de proyectos del Fondo Colombia
+                            en Paz
+                            <div>
+                                <p>
+                                    Función: Orientar, motivar, concertar, apoyar <br>
+                                    Objeto: estructuración del proyecto, informes, enlace con gerencia del proyecto
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Coordinador del componente no agropecuario del proyecto de Reintegración <br>
+                            Económica en municipios priorizados por el proceso de paz en Colombia
+                            <div>
+                                <p>
+                                    Función: Concertar, orientar, motivar, acompañar <br>
+                                    Objeto: ejecución de actividades de formación, informes, enlace con gerencia del
+                                    proyecto
+                                    y entrega de elementos para la constitución de las unidades productivas
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Profesional socio empresarial en el proyecto de reparación integral <br>
+                            Emprendiendo Sueños en el convenio PNUD-Ministerio del Trabajo
+                            <div>
+                                <p>
+                                    Función: Concertar, apoyar, atender <br>
+                                    Objeto: cumplimiento de actividades, reporte a coordinación territorial
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Profesional socio empresarial ASOHOFRUCOL
+                            <div>
+                                <p>
+                                    Función: Concertar, apoyar, atender <br>
+                                    Objeto: cumplimiento de actividades, reporte a coordinación departamental
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">
+                            Orientación a Resultados
+                        </td>
+                        <td>
+                            Coordinador/Ejecutor del proyecto de Alianzas Productivas denominado ASOPROCASINES II.
+                            <div>
+                                <p>
+                                    Función: Ejecutar, hacer seguimiento, evaluar, hacer retroalimentación, reprogramar,
+                                    presentar informes <br>
+                                    Objeto: Presupuesto, actividades, recursos<br>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gerente del Centro Regional de Atención para Víctimas del municipio de Valledupar
+                            <div>
+                                <p>
+                                    Función: Evaluar, hacer seguimiento a la atención, presentar informes <br>
+                                    Objeto: Atención al ciudadano, coordinación departamental, administración municipal
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Especialista financiero del roster de estructuración de proyectos del Fondo Colombia
+                            en Paz
+                            <div>
+                                <p>
+                                    Función: Evaluar, hacer retroalimentación, presentar informes <br>
+                                    Objeto: componente financiero del proyecto, proyecto final
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Coordinador del componente no agropecuario del proyecto de Reintegración <br>
+                            Económica en municipios priorizados por el proceso de paz en Colombia
+                            <div>
+                                <p>
+                                    Función: Evaluar, hacer seguimiento, presentar informes <br>
+                                    Objeto: ejecución de actividades de formación y entrega de elementos para
+                                    la constitución de las unidades productivas
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Profesional socio empresarial en el proyecto de reparación integral <br>
+                            Emprendiendo Sueños en el convenio PNUD-Ministerio del Trabajo
+                            <div>
+                                <p>
+                                    Función: Ejecutar, hacer seguimiento, evaluar <br>
+                                    Objeto: actividades, operatividad de los establecimientos entregados y los recursos
+                                    asignados
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Profesional socio empresarial ASOHOFRUCOL
+                            <div>
+                                <p>
+                                    Función: Ejecutar, reprogramar, presentar informes <br>
+                                    Objeto: actividades, coordinación departamental, beneficarios del proyecto
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">
+                            Solución de problemas complejos
+                        </td>
+                        <td>
+                            Coordinador/Ejecutor del proyecto de Alianzas Productivas denominado ASOPROCASINES II.
+                            <div>
+                                <p>
+                                    Función: Analizar, concertar, decidir <br>
+                                    Objeto: Base de beneficiarios, licitaciones y selección de proveedores. Condiciones
+                                    y responsabilidades del acuerdo de comercialización<br>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gerente del Centro Regional de Atención para Víctimas del municipio de Valledupar
+                            <div>
+                                <p>
+                                    Función: Analizar, identificar, optimizar <br>
+                                    Objeto: tiempos de espera en atención, calidad de la atención, satisfacción del
+                                    usuario,
+                                    ambiente laboral
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Especialista financiero del roster de estructuración de proyectos del Fondo Colombia
+                            en Paz
+                            <div>
+                                <p>
+                                    Función: Analizar, identificar, concertar <br>
+                                    Objeto: proceso de estructuración (Cuellos de botella), cambio de aliado comercial,
+                                    condiciones de negociación del acuerdo de comercialización
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Coordinador del componente no agropecuario del proyecto de Reintegración <br>
+                            Económica en municipios priorizados por el proceso de paz en Colombia
+                            <div>
+                                <p>
+                                    Función: Concertar, priorizar, optimizar <br>
+                                    Objeto: Base de beneficarios, entrega de elementos, satisfacción del beneficiario
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Programador practicante en el programa Automic Jump
+                            bajo la orientación de la organización Automic Mind
+                            <div>
+                                <p>
+                                    Función: Analizar, validar, optimizar <br>
+                                    Objeto: Retos de programación asignados
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Estudiante de análisis de datos
+                            <div>
+                                <p>
+                                    Función: Analizar, validar, preparar, proponer <br>
+                                    Objeto: Análisis exploratorio de datos. Modelo de análisis predictivo
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="intereses" class="mostrar">
+                <h4 class="title-section">
+                    Mis Intereses
+                </h4>
+                <p class="paragraph">
+                    Si has visto la sección <i>"Mi Historia"</i>, tal vez has podido hacerte una idea de lo que
+                    encontrarás en esta sección,
+                    pues allí, hay claras pistas que ponen de manifiesto las cosas que <b>me motivan, me apasionan</b> y
+                    por consiguiente, generan
+                    en mi el deseo de hacer todo lo posible cada día por proponerme metas, por alcanzarlas, y por
+                    trasmitir la alegría que me
+                    produce saberme parte de algo tan importante. Bien, sin más comentarios, estos son mis intereses y
+                    motivaciones:
+                </p>
+                <div class="int1">
+                    Mi Familia
+                </div>
+                <div class="int2">
+                    Mi esposa y mis hijas, son el motor de mi vida. Ellas representan la inspiración de Dios en mi vida,
+                    su gracia y su bendición. Con ellas quiero compartir todo el tiempo posible y disfrutar de
+                    actividades como:
+                    <ul>
+                        <li class="likes">
+                            Caminar por el parque
+                        </li>
+                        <li class="likes">
+                            Salir de compras
+                        </li>
+                        <li class="likes">
+                            Salir a comer
+                        </li>
+                        <li class="likes">
+                            Viajar
+                        </li>
+                        <li class="likes">
+                            Vivir las fiestas de fin de año
+                        </li>
+                        <li class=" likes">
+                            Ir a cine
+                        </li>
+                    </ul>
+                </div>
+                <div class="int1">
+                    Practicar deporte
+                </div>
+                <div class="int2 sport">
+                    Para mi, el deporte representa más que una actividad física, la cual disfruto
+                    al máximo, es un estilo de vida, el complemento ideal para mi salud y
+                    mi estado de ánimo. Además, el hecho de practicar deporte, me conecta con
+                    las personas, me saca de la rutina y me conecta con el mundo, sin necesidad
+                    de usar la tecnología. Con el futbol en primer lugar de preferencia, me inclino
+                    por practicar los siguientes deportes:
+                    <ul>
+                        <li class="likes">
+                            Futbol
+                        </li>
+                        <li class="likes">
+                            Voleybol
+                        </li>
+                        <li class="likes">
+                            Natación
+                        </li>
+                        <li class="likes">
+                            Tenis
+                        </li>
+                        <li class="likes">
+                            Baloncesto
+                        </li>
+                        <li class=" likes">
+                            Ping pong
+                        </li>
+                    </ul>
+                </div>
+                <div class="int1">
+                    Descubrir y enfrentar nuevos retos
+                </div>
+                <div class="int2 more">
+                    Soy amante de los retos. Los desafíos son una manera de mantenerme mentalmente en forma, pero
+                    además,
+                    resolver problemas es parte de mi naturaleza, especialmente problemas complejos; lo habrás notado si
+                    ya
+                    has visitado la sección <strong>Mi Perfil.</strong> Dentro de los retos que actualmente disfruto se
+                    encuentran
+                    los asociados a programación y análisis de datos. Encuentro especialmente fascinantes e interesantes
+                    el uso
+                    de la lógica matemática para proponer soluciones a situaciones cotidianas, situaciones que en
+                    ocasiones requieren de
+                    aplicar un pensamiento analítico y que en otras se necesita pensar de manera disruptiva, fuera de la
+                    caja, ser
+                    creativo. <br> Dentro de los desafíos que más disfruto se encuentran:
+                    <ul>
+                        <li class="likes">
+                            Ordenar conjuntos complejos de datos
+                        </li>
+                        <li class="likes">
+                            Interacciones entre factores sobre variables
+                        </li>
+                        <li class="likes">
+                            Selección de elementos según criterios definidos
+                        </li>
+                        <li class="likes">
+                            Identificación de patrones de comportamiento
+                        </li>
+                        <li class="likes">
+                            Identificación de patrones de secuencias de datos
+                        </li>
+                        <li class=" likes">
+                            Automatización de tareas repetitivas
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="compromisos" class="mostrar">
+                <h4 class="title-section">
+                    Mis Compromisos
+                </h4>
+                <p class="paragraph">
+                    Con claros intereses en mi vida (te invito a que visites la sección <strong>Mis Intereses</strong>,
+                    si aún no los ha hecho),
+                    no está demás mencionar que soy una persona comprometida, especialmente con el bienestar de mi
+                    familia,
+                    pero también con mis metas y proyectos, tanto a nivel personal como profesional. Así lo he
+                    demostrado en cada uno de
+                    los cargos en los que me he desempeñado, dejando una huella positiva en donde he estado; no en vano,
+                    muchas de las
+                    personas con las que he tenido la oportunidad de trabajar, tanto beneficiarios de proyectos, como
+                    aprendices SENA,
+                    como compañeros de equipo y profesionales que he tenido a cargo, han dado buena referencia de mi en
+                    cuanto a mi
+                    compromiso, seriedad, dinamismo y cumplimiento. En breve te presento mis actuales compromisos y de
+                    que manera estoy
+                    trabajando en ellos para cumplir con mis objetivos:
+                </p>
+                <div>
+                    <ol class="ordList">
+                        <li class="elementList">
+                            Proyecto/Empresa familiar de respostería
+                        </li>
+                        <li class="elementList">
+                            Estudiar Inglés
+                        </li>
+                        <li class="elementList">
+                            Bootcamp de Programación
+                        </li>
+                        <li class="elementList">
+                            Curso de programación con MIT
+                        </li>
+                        <li class="elementList">
+                            Curso de Analista de Datos
+                        </li>
+                    </ol>
+                </div>
+                <table class="tbsched">
+                    <thead class="hdsched">
+                        <tr class="rowhd">
+                            <th class="hdhour" rowspan="2">
+                                Hora
+                            </th>
+                            <th class="hdtb" colspan="6">
+                                Día
+                            </th>
+                        </tr>
+                        <tr class="subrwhd">
+                            <th class="celld">
+                                Lunes
+                            </th>
+                            <th class="celld">
+                                Martes
+                            </th>
+                            <th class="celld">
+                                Miércoles
+                            </th>
+                            <th class="celld">
+                                Jueves
+                            </th>
+                            <th class="celld">
+                                Viernes
+                            </th>
+                            <th class="celld">
+                                Sábado
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="bdsched">
+                        <tr class="rowbd">
+                            <td class="cellhour">
+                                8:00 a.m.
+                            </td>
+                            <td class="cellbd">
+                                Estudiar Inglés
+                            </td>
+                            <td class="cellbd">
+                                Bootcamp Programación
+                            </td>
+                            <td class="cellbd">
+                                Curso de Programación con MIT
+                            </td>
+                            <td class="cellbd">
+                                Curso de Análista de datos
+                            </td>
+                            <td class="cellbd">
+                                Estudiar Inglés
+                            </td>
+                            <td class="cellbd">
+                                Estudiar Inglés
+                            </td>
+                        </tr>
+                        <tr class="rowbd">
+                            <td class="cellhour">
+                                10:00 a.m.
+                            </td>
+                            <td class="cellbd">
+                                Bootcamp de Programación
+                            </td>
+                            <td class="cellbd">
+                                Curso de Programación con MIT
+                            </td>
+                            <td class="cellbd">
+                                Curso de Analista de datos
+                            </td>
+                            <td class="cellbd">
+                                Estudiar Inglés
+                            </td>
+                            <td class="cellbd">
+                                Bootcamp de Programación
+                            </td>
+                            <td class="cellbd">
+                                Curso de Programación con MIT
+                            </td>
+                        </tr>
+                        <tr class="rowbd">
+                            <td class="cellhour">
+                                12:00 m
+                            </td>
+                            <td class="cellbd">
+                                Almuerzo
+                            </td>
+                            <td class="cellbd">
+                                Almuerzo
+                            </td>
+                            <td class="cellbd">
+                                Almuerzo
+                            </td>
+                            <td class="cellbd">
+                                Almuerzo
+                            </td>
+                            <td class="cellbd">
+                                Almuerzo
+                            </td>
+                            <td class="cellbd">
+                                Almuerzo
+                            </td>
+                        </tr>
+                        <tr class="rowbd">
+                            <td class="cellhour">
+                                2:00 p.m.
+                            </td>
+                            <td class="cellbd">
+                                Curso de Programación con MIT
+                            </td>
+                            <td class="cellbd">
+                                Estudiar Inglés
+                            </td>
+                            <td class="cellbd">
+                                Bootcamp de Programación
+                            </td>
+                            <td class="cellbd">
+                                Curso de Programación con MIT
+                            </td>
+                            <td class="cellbd">
+                                Curso de Analista de datos
+                            </td>
+                            <td class="cellbd">
+                                Bootcamp de Progrmación
+                            </td>
+                        </tr>
+                        <tr class="rowbd">
+                            <td class="cellhour">
+                                4:00 p.m.
+                            </td>
+                            <td class="cellbd">
+                                Proyecto/Empresa familiar de respostería
+                            </td>
+                            <td class="cellbd">
+                                Proyecto/Empresa familiar de respostería
+                            </td>
+                            <td class="cellbd">
+                                Proyecto/Empresa familiar de respostería
+                            </td>
+                            <td class="cellbd">
+                                Proyecto/Empresa familiar de respostería
+                            </td>
+                            <td class="cellbd">
+                                Proyecto/Empresa familiar de respostería
+                            </td>
+                            <td class="cellbd">
+                                Proyecto/Empresa familiar de respostería
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="universidad" class="mostrar">
+                <h4 class="title-section">
+                    Estudios Universitarios
+                </h4>
+                <p class="paragraph pd">
+                    Diploma y acta de grado de Ingeniería Agroindustrial. Una imagen, vale más que mil palabras:
+                </p>
+                <div class="univ">
+                    <iframe class="univD" src="documents/Diploma Ingeniería.pdf" frameborder="1"
+                        title="Diploma Universidad"></iframe>
+                    <iframe class="univA" src="documents/Acta de Grado.pdf" frameborder="1"
+                        title="Acta de Grado Universidad"></iframe>
+                </div>
+            </div>
+            <div id="master" class="mostrar">
+                <h4 class="title-section">
+                    Estudios de Posgrado/Master
+                </h4>
+                <p class="paragraph">
+                    Diploma de Master en Direccionamiento Estratégico, Planificación y Control de la Gestión
+                </p>
+                <div class="univ">
+                    <iframe class="univD" src="documents/Diploma Master en DEPCG.pdf" frameborder="1"
+                        title="Diploma Master"></iframe>
+                </div>
+            </div>
+            <div id="otrosEst" class="mostrar estOt">
+                <h4 class="title-section">
+                    Otros estudios
+                </h4>
+                <p class="paragraph">
+                    A continuación, encontrarás algunos de los certificados de cursos que he tomado recientemente y
+                    algunos no tan recientes:
+                </p>
+                <div class="univ">
+                    <iframe class="univD"
+                        src="documents/Coursera certificate 0UIJQ2KZL7VB. PrepareDataForExploration.pdf" frameborder="1"
+                        title="Certificado en Análisis de Datos. Preparar datos"></iframe>
+                    <iframe class="univD" src="documents/Coursera Certificate Y29O67RAU1BN. AskQuestionsToMakeDDD.pdf"
+                        frameborder="1" title="Certificado en Análisis de Datos. Hacer preguntas"></iframe>
+                    <iframe class="univD"
+                        src="documents/Certificado Effective Problem Solving and Decision Making. Coursera CUT9EFDF3RGI.pdf"
+                        frameborder="1"
+                        title="Certificado en Gestión Empresarial. Solución efectiva de problemas"></iframe>
+                    <iframe class="univD"
+                        src="documents/Certificado Básico de Análisis de Datos. Coursera DK5OS53JNMJD.pdf"
+                        frameborder="1" title="Certificado en Análisis de Datos. Básico de análisis de datos"></iframe>
+                    <iframe class="univD" src="documents/Certificado curso excel avanzado. Edutyc_compressed.pdf"
+                        frameborder="1" title="Certificado de Excel Avanzado"></iframe>
+                    <iframe class="univD" src="documents/DataCamp.IntroductionToTidyVerse.certificate.pdf"
+                        frameborder="1" title="Certificado de inducción al Tidyverse"></iframe>
+                </div>
+            </div>
+            <div id="instSena" class="mostrar">
+                <h4 class="title-section">
+                    Experiencia como Instructor Sena
+                </h4>
+                <p class="paragraph">
+                    Tuve la oportunidad de desempeñarme como instructor de procesamiento de alimentos y manipulación de
+                    alimentos en la
+                    prestigiosa entidad llamada Servicio Nacional de Aprendizaje, SENA. Este tipo de actividad la
+                    realicé por prestación
+                    de servicios en diferentes períodos de tiempo, desde el año 2003 al 2007, y posteriormente desde el
+                    año 2008 al 2010. A
+                    continuación se presenta un resumen de esta ocupación:
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Fecha inicio
+                            </th>
+                            <th>
+                                Fecha fin
+                            </th>
+                            <th>
+                                Objeto
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Ene/29/2010
+                            </td>
+                            <td>
+                                Jul/28/2010
+                            </td>
+                            <td>
+                                Prestar servicios como instructor en el área de Agroindustria
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mar/24/2009
+                            </td>
+                            <td>
+                                Dic/23/2009
+                            </td>
+                            <td>
+                                Prestar servicios como instructor en el área de
+                                manipulación de alimentos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Oct/6/2008
+                            </td>
+                            <td>
+                                Dic/30/2008
+                            </td>
+                            <td>
+                                Prestar servicios como instructor de Agroindustria
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Jul/11/2007
+                            </td>
+                            <td>
+                                Nov/30/2007
+                            </td>
+                            <td>
+                                Prestar servicios como instructor de Agroindustria
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Sept/7/2006
+                            </td>
+                            <td>
+                                Mar/6/2007
+                            </td>
+                            <td>
+                                Prestar servicios como instructor en el aula itinerante
+                                de productos cárnicos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Dic/19/2005
+                            </td>
+                            <td>
+                                Jun/30/2006
+                            </td>
+                            <td>
+                                Prestar servicios como instructor en transformación de
+                                alimentos aula itinerante
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Ago/22/2005
+                            </td>
+                            <td>
+                                Dic/16/2005
+                            </td>
+                            <td>
+                                Prestar servicios como instructor area de transformación de
+                                alimentos aula itinerante
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Abr/18/2005
+                            </td>
+                            <td>
+                                Jun/30/2005
+                            </td>
+                            <td>
+                                Prestar servicios como instructor en tecnología de elaboración
+                                de productos derivados lácteos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Dic/27/2004
+                            </td>
+                            <td>
+                                Mar/31/2005
+                            </td>
+                            <td>
+                                Prestar servicios como instructor en tecnología de elaboración de
+                                productos derivados lácteos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Nov/18/2004
+                            </td>
+                            <td>
+                                Dic/22/2004
+                            </td>
+                            <td>
+                                Prestar servicios como instructor en tecnología de elaboración de
+                                productos derivados lácteos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Jul/19/2004
+                            </td>
+                            <td>
+                                Sept/30/2004
+                            </td>
+                            <td>
+                                Prestar servicios como instructor en tecnología de elaboración de
+                                productos derivados lácteos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Abr/12/2004
+                            </td>
+                            <td>
+                                Jun/26/2004
+                            </td>
+                            <td>
+                                Prestar servicios como instructor en tecnología de transformación
+                                de cárnicos, lácteos y dulces
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Dic/31/2003
+                            </td>
+                            <td>
+                                Abr/4/2004
+                            </td>
+                            <td>
+                                Prestar servicios como instructor en procesamiento de productos lácteos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Sept/15/2003
+                            </td>
+                            <td>
+                                Dic/19/2003
+                            </td>
+                            <td>
+                                Prestar servicios como instructor en el bloque modular de
+                                procesamiento de lácteos
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="gestEmp" class="mostrar">
+                <h4 class="title-section">
+                    Experiencia en Gestión Empresarial
+                </h4>
+                <p class="paragraph">
+                    Me desempeñé como asesor en gestión empresarial en el SENA, con el Programa de las
+                    Naciones Unidas para el Desarrollo, PNUD, en convenios con el Ministerio de Comercio
+                    y con el Ministerio del Trabajo, en períodos diferentes. Así mismo, esta actividad
+                    también la llevé a cabo con la organización ASOHOFRUCOL y con la empresa Altropic.
+                    Por otro lado, y dentro de la misma área de gestión administrativa o empresarial, tuve
+                    la oportunida de ejercer como Gerente del Centro Regional de Atención a las Víctimas en
+                    el municipio de Valledupar
+                    A continuación, los detalles:
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Fecha inicio
+                            </th>
+                            <th>
+                                Fecha fin
+                            </th>
+                            <th>
+                                Objeto
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Feb/2023
+                            </td>
+                            <td>
+                                Jun/2024
+                            </td>
+                            <td>
+                                Asesorar, acompañar, gestionar el sistema de gestión de la calidad
+                                basado en la norma ISO 9001 versión 2015 a la empresa Luminosos Correa
+                                Electronics Ltda de la ciudad de Temuco, Chile
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Ene/2022
+                            </td>
+                            <td>
+                                Dic/2022
+                            </td>
+                            <td>
+                                Asesorar, acompañar y fortalecer las organizaciones de pequeños productores
+                                campesinos en la gestión administrativa, comercial, financiera y organizacional
+                                como parte del acompañamiento que brinda la organización ASOHOFRUCOL a sus afiliados
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Sept/2020
+                            </td>
+                            <td>
+                                Mar/2021
+                            </td>
+                            <td>
+                                Fortalecer la gestión organizacional, comercial y administrativa de la Asociación
+                                de Víctimas Unidas por el Campo en el marco del convenio ASOVUCAM - PNUD - Ministerio
+                                del Trabajo
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mar/2020
+                            </td>
+                            <td>
+                                Jul/2020
+                            </td>
+                            <td>
+                                Fortalecer la gestión organizacional, comercial y administrativa de la Asociación
+                                de Víctimas Unidas por el Campo en el marco del convenio ASOVUCAM - PNUD - Ministerio
+                                del Trabajo
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Oct/2015
+                            </td>
+                            <td>
+                                Abr/2016
+                            </td>
+                            <td>
+                                Gestionar, coordinar, planificar, hacer seguimiento y control y
+                                demás funciones inherentes al cargo de Gerente, en el proceso de atención
+                                a la población víctima en el Centro Regional de Atención a las Víctimas en el
+                                municipio de Valledupar
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                May/2014
+                            </td>
+                            <td>
+                                Dic/2014
+                            </td>
+                            <td>
+                                Asesorar y acompañar en el fortalecimiento y desarrollo empresarial
+                                de una cadena de 10 unidades de negocios con empresarios pertenecientes
+                                a población víctima, implementando la metodología de Desarrollo de Proveedores.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Ene/2014
+                            </td>
+                            <td>
+                                Jul/2014
+                            </td>
+                            <td>
+                                Asesorar, acompañar y fortalecer el desarollo empresarial de las
+                                unidades productivas resultantes del programa Jóvenes Rurales Emprendedores, en
+                                aspectos administrativos, financieros y comerciales
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Jul/2013
+                            </td>
+                            <td>
+                                Dic/2013
+                            </td>
+                            <td>
+                                Asesorar, acompañar y fortalecer el desarollo empresarial de las
+                                unidades productivas resultantes del programa Jóvenes Rurales Emprendedores, en
+                                aspectos administrativos, financieros y comerciales
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Ene/2008
+                            </td>
+                            <td>
+                                Ago/2008
+                            </td>
+                            <td>
+                                Coordinar, planear, organizar y hacer seguimiento y control a los procesos de
+                                producción de queso de pasta hilada, queso costeño pasteurizado y arequipe en
+                                la empresa Lácteos Primavera de Valledupar
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Abr/2005
+                            </td>
+                            <td>
+                                Sept/2007
+                            </td>
+                            <td>
+                                Asesorar en la gestión comercial, financiera y administrativa al empresario y su equipo
+                                de trabajo
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="estProy" class="mostrar">
+                <h4 class="title-section">
+                    Experiencia en Estructuración de Proyectos
+                </h4>
+                <p class="paragraph">
+                    Tuve la oportunidad de trabajar en el área de formulación o estructuración de proyectos
+                    en diferentes organizaciones, tales como: el SENA, la organización Cooagrodin en el marco
+                    de un convenio de fortalecimiento suscrito entre la Alcaldía de Valledupar y la Cámara de Comercio
+                    de Valledupar, y con la organización Corporación Adel Zapatosa. Se pueden observar los detalles
+                    de esta experiencia en la siguiente tabla:
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Fecha inicio
+                            </th>
+                            <th>
+                                Fecha fin
+                            </th>
+                            <th>
+                                Objeto
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Ene/2021
+                            </td>
+                            <td>
+                                Jun/2021
+                            </td>
+                            <td>
+                                Estructurar, evaluar y revisar la viabilidad económica y financiera de los proyectos
+                                productivos sostenibles del programa Colombia Sostenible dentro del acuerdo sostenido
+                                entre el
+                                consorcio Fondo Colombia en Paz y la Corporación Adel Zapatosa
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Sept/2012
+                            </td>
+                            <td>
+                                Dic/2012
+                            </td>
+                            <td>
+                                Asesorar en la formulación y evaluación de planes de negocio a productores del municipio
+                                de Valledupar,
+                                en el marco del acuerdo de fortalecimiento suscrito entre la Unidad Administrativa
+                                Especial de Organizaciones
+                                Solidarias, la Alcaldía de Valledupar y la Cámara de Comercio de Valledupar
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Ago/2012
+                            </td>
+                            <td>
+                                Dic/2012
+                            </td>
+                            <td>
+                                Asesorar a los usuarios de las unidades de emprendimiento del SENA en la
+                                estructuración de planes de negocio y desarrollo de proyectos de base
+                                tecnológica
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Abr/2012
+                            </td>
+                            <td>
+                                Jun/2012
+                            </td>
+                            <td>
+                                Asesorar a los usuarios de las unidades de emprendimiento del SENA en la
+                                estructuración de planes de negocio y desarrollo de proyectos de base
+                                tecnológica
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="gestProy" class="mostrar">
+                <h4 class="title-section">
+                    Experiencia en Gestión de Proyectos
+                </h4>
+                <p class="paragraph">
+                    En el área de gestión de proyectos he tenido importantes experiencias, especialmente la ejecución
+                    del
+                    proyecto de Alianzas Productivas, en donde tuve la oportunidad de gestionar todo el proceso, desde
+                    la
+                    estructuración del plan de trabajo para el establecimiento de metas e indicadores, pasando por los
+                    procesos
+                    de contratación de personal, elaboración de términos de referencia, ejecución de recursos con
+                    control y seguimiento
+                    al presupuesto y liderazgo del equipo de profesionales para el cumplimiento de las metas. Así mismo,
+                    con
+                    la organización Red Adelco, tuve la oportunidad de coordinar la ejecución del componente no
+                    agropecuario de un
+                    proyecto orientado al fortalecimiento de pequeñas unidades de negocio para la reactivación económica
+                    de zonas
+                    afectadas por el conflicto armado. Aquí un resumen de esta experiencia:
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Fecha inicio
+                            </th>
+                            <th>
+                                Fecha fin
+                            </th>
+                            <th>
+                                Objeto
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Sept/2021
+                            </td>
+                            <td>
+                                May/2022
+                            </td>
+                            <td>
+                                Coordinar, planificar, hacer seguimiento y control del proceso de formación técnica,
+                                empresarial y comercial,
+                                a las unidades de negocio del componente de Reactivación Económica en el marco del
+                                proyecto de
+                                intervención territorial para el Fomento y Fortalecimiento de Actividades en las líneas
+                                de Producción Agropecuaria,
+                                Reactivación Económica y Seguridad Alimentaria suscrito entre la Alcaldía de Codazzi, la
+                                Agencia para la Renovación
+                                para el Territorio y la Red de Agencias de Desarrollo Local, Red Adelco
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                May/2018
+                            </td>
+                            <td>
+                                Dic/2019
+                            </td>
+                            <td>
+                                En el rol de Organización Gestora Acompañante, gestionar, planificar, coordinar,
+                                ejecutar, hacer seguimiento y control a los recursos
+                                del proyecto de Alianzas productivas denominado Mejoramiento de las condiciones
+                                productivas y
+                                de beneficio de productores cafeteros orgánicos en la Sierra Nevada de Santa Marta.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="progLog" class="mostrar">
+                <h4 class="title-section">
+                    Logros en Programación
+                </h4>
+                <p class="paragraph">
+                    En el mundo de la programación, he logrado desarrollar algunos proyectos interesantes, usando principalmente los lenguajes <u>C, Java Script y VBA</u>. También he tenido la oportunidad de conocer un poco acerca de la syntaxis y
+                    funcionalidad de los lenguajes <b>python, rexx, lobster, lua y dale.</b>
+                    Con respecto a lo que he logrado con Java Script, esta página es en sí misma el proyecto más
+                    avanzado en el uso de <strong>Java Script</strong>,
+                    sumado a la implementación de <i>HTML</i> y <i>CSS</i>. Te invito a que le eches un vistazo a cada
+                    una de las secciones, si aún no lo has hecho.
+                    Veamos algunos de mis logros en este campo:
+                </p>
+                <div class="c">
+                    <a href="https://github.com/dashboard" target="_blank">
+                        <p class="clang">
+                            <strong>Lenguaje: C</strong><br>Aplicar filtro a imagen <br>
+                            Tipos de filtro: Escala de grises, imagen invertida, difuminado y detección de bordes
+                        </p>
+                    </a>
+                </div>
+                <div class="c">
+                    <a href="https://github.com/dashboard" target="_blank">
+                        <p class="clang">
+                            <strong>Lenguaje: C</strong><br>Control de volumen de archivo de audio <br>
+                            Tipo de control: Incremento y reducción de volumen
+                        </p>
+                    </a>
+                </div>
+                <div class="c">
+                    <a href="https://www.codeabbey.com/index/user_profile/jjaossds" target="_blank">
+                        <p class="clang">
+                            <strong>Lenguaje: Rexx, Lobster, Lua, Dale, Python</strong><br>Solución a diferentes problemas en la página Codeabbey
+                        </p>
+                    </a>
+                </div>
+                <div class="c">
+                    <a href="https://jair853.github.io/pagWebLab7/" target="_blank">
+                        <p class="clang">
+                            <strong>Lenguaje: Java Script, HTML, CSS</strong><br>
+                            Página web personal. Versión preliminar
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div id="anDatLog" class="mostrar">
+                <h4 class="title-section">
+                    Logros en Análisis de Datos
+                </h4>
+                <p class="paragraph">
+                    En análisis de datos he desarrollado análisis sobre conjuntos de datos o bases de datos obtenidos a partir
+                    de estudios en seres humanos y en cultivos vegetales. En el caso del análisis sobre un cultivo de lechugas, 
+                    está pendiente de ser completado usando un modelo predictivo, el cual puede ser Regresión Linear, o uno 
+                    de los modelos de análisis de machine learning, tales como: Random Forest, Neural Networks o Gradient Boosting Machines.
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Tipo de Análisis
+                            </th>
+                            <th>
+                                Tamaño de la muestra
+                            </th>
+                            <th>
+                                Objeto del análisis
+                            </th>
+                            <th>
+                                Resultados del análisis
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Correlación multivariable
+                            </td>
+                            <td>
+                                268 estudiantes (201 estudian en países extranjeros. 67 son estudiantes locales)
+                            </td>
+                            <td>
+                                Impacto que ejercen el tiempo de estadía, estrés cultural y aislamiento social en los niveles de depresión y en general en la salud mental de los 
+                                estudiantes japoneses que estudian en países extranjeros.
+                            </td>
+                            <td>
+                                Los factores: tiempo de estadía, estrés cultural y aislamiento social, no son concluyentes o no presentan fuerte correlación con los niveles de depresión y la salud mental de estudiantes japoneses que estudian en el exterior. 
+                                Así mismo, en comparación con los mismos factores analizados en individuos que estudian en su propio país, no existen diferencias significativas.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Análisis Exploratorio y correlación multivariable según el método Spearman
+                            </td>
+                            <td>
+                                70 plantas de lechuga. Tiempo de muestreo: 45 a 48 días. Total registros: 3169
+                            </td>
+                            <td>
+                                Efecto que tienen los factores ambientales sobre el tiempo de crecimiento en un cultivo de lechuga.
+                            </td>
+                            <td>
+                                La variable temperatura sugiere que fue controlada para un determinado número de muestras (muestras 1 a 51), mientras que
+                                que para el restante de muestras (muestras 52 a 70), se observa un comportamiento normal de la temperatura. Por otro lado, las variables % de humedad,
+                                Sólidos totales disueltos y pH, sugieren que fueron tomados de acuerdo a las condiciones naturales del entorno. Excepto por la condición 
+                                que presenta la variable temperatura, los demás factores ambientales no presentan una correlación fuerte con el tiempo de crecimiento del 
+                                cultivo de lechuga.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="estProyLog" class="mostrar">
+                <h4 class="title-section">
+                    Logros en Estructuración de Proyectos
+                </h4>
+                <p class="paragraph">
+                    En mi experiencia como formulador/estructurador y evaluador de proyectos he tenido la oportunidad de alcanzar la aprobación de 8 proyectos 
+                    en diferentes convocatorias a nivel nacional.
+                    A continuación te presento un resumen de los proyectos adjudicados:
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Item
+                            </th>
+                            <th>
+                                Nombre del proyecto
+                            </th>
+                            <th>
+                                Objeto
+                            </th>
+                            <th>
+                                Monto aprobado
+                            </th>
+                            <th>
+                                Convocatoria
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                Instalación de una estación de monitoreo climático para el incremento de la productividad en
+                                el cultivo de mango variedades Keitt y Tommy Atkins de la Asociación de Productores de
+                                Cítricos de la Costa Caribe, en el departamento del Cesar
+                            </td>
+                            <td>
+                                Incrementar la productividad y la capacidad administrativa de organizaciones de productores de
+                                mango en el municipio de Chimichagua, Cesar.
+                            </td>
+                            <td>
+                                COP$ 108.998.862
+                            </td>
+                            <td>
+                                Implementación de un proyecto de CTEI para la reactivación económica y el incremento de la competitividad de sectores
+                                económicos priorizados en el marco de la crisis generada por el Covid-19 en el departamento del Cesar
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                Instalación de una estación de monitoreo climático para el incremento de la productividad en
+                                el cultivo de mango variedades Keitt y Tommy Atkins de la Corporación Mana Verde, en el
+                                departamento del Cesar
+                            </td>
+                            <td>
+                                Incrementar la productividad y la capacidad administrativa de organizaciones de productores de
+                                mango en el municipio de Pailitas, Cesar.
+                            </td>
+                            <td>
+                                COP$ 102.096.050
+                            </td>
+                            <td>
+                                Implementación de un proyecto de CTEI para la reactivación económica y el incremento de la competitividad de sectores
+                                económicos priorizados en el marco de la crisis generada por el Covid-19 en el departamento del Cesar
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                Instalación de una estación de monitoreo climático para el incremento de la productividad en
+                                el cultivo de mango variedad Keitt de la Asociación Campesina Para El Progreso De Poponte,
+                                en el departamento del Cesar
+                            </td>
+                            <td>
+                                Incrementar la productividad y la capacidad administrativa de organizaciones de productores de
+                                mango en el municipio de Chiriguaná, Cesar.
+                            </td>
+                            <td>
+                                COP$ 106.150.186
+                            </td>
+                            <td>
+                                Implementación de un proyecto de CTEI para la reactivación económica y el incremento de la competitividad de sectores
+                                económicos priorizados en el marco de la crisis generada por el Covid-19 en el departamento del Cesar
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                4
+                            </td>
+                            <td>
+                                Incremento de la productividad de pequeños productores acuícolas en el corregimiento de Candelaria, Cesar
+                            </td>
+                            <td>
+                                Incrementar la productividad y la capacidad administrativa de una organización de productores acuícolas
+                                en el corregimiento de Candelaria, Chimichagua, Cesar.
+                            </td>
+                            <td>
+                                COP$ 764.855.342,07
+                            </td>
+                            <td>
+                                Alianzas para la Vida Fase III. Ministerio de Agricultura
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                5
+                            </td>
+                            <td>
+                                Mejoramiento técnico y productivo de pequeños productores agrícolas en el municipio de Pailitas, Cesar
+                            </td>
+                            <td>
+                                Incrementar la productividad mediante el mejoramiento técnico de productores de mango en el municipio de Pailitas, Cesar
+                            </td>
+                            <td>
+                                COP$ 423.826.819,86
+                            </td>
+                            <td>
+                                Alianzas para la Vida Fase III. Ministerio de Agricultura
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                6
+                            </td>
+                            <td>
+                                Apicultura, Huertas Orgánicas, siembra y semi- mecanización del proceso de
+                                cultivo de ajonjolí como alternativa para la integración de jóvenes rurales en
+                                las cadenas productivas de los Montes de María. Municipio de Córdoba,
+                                departamento de Bolívar
+                            </td>
+                            <td>
+                                Lograr la inclusión productiva de los jóvenes rurales de Córdoba Bolívar
+                                focalizados en las veredas Guaymaral, Guarumo y Santa Lucía a las cadenas productivas de
+                                Ajonjolí, Apícola y Hortalizas y Verduras, buscando el aumento de la competitividad y sostenibilidad
+                                del sector agropecuario en la región propendiendo por la integración generacional, el cambio
+                                tecnológico, la sostenibilidad ambiental, la diversificación y la creación de oportunidades de inclusión
+                                productiva, rentable y atractivas para jóvenes rurales campesinos.
+                            </td>
+                            <td>
+                                COP$ 1.149.536.021
+                            </td>
+                            <td>
+                                Programa Colombia Sostenible. Fondo Colombia en Paz
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                7
+                            </td>
+                            <td>
+                                Mejoramiento del Sistema Productivo Agroecológico del Asocio Yuca, Maíz, Ñame y Frijol y Aprovechamiento de la Materia Prima 
+                                en los Cabildos Indígenas de Libertad, Pajonal, Palo Alto, Berrugas y Rincón del Mar en el municipio de San Onofre, Sucre.
+                            </td>
+                            <td>
+                                Incrementar la oferta alimentaria e ingresos de las familias indígenas
+                                sujetos de reparación colectiva del municipio de San Onofre- Sucre, a través de la implementación
+                                de sistemas productivos asociativos (yuca, ñame, maíz y frijol) agroecológicos.
+                            </td>
+                            <td>
+                                COP$ 1.963.683.770
+                            </td>
+                            <td>
+                                Programa Colombia Sostenible. Fondo Colombia en Paz
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                8
+                            </td>
+                            <td>
+                                Fortalecimiento de la Producción de Cacao como Alternativa Productiva para la Generación de 
+                                Ingresos y Sostenibilidad Ambiental en el Municipio de Montelíbano, Córdoba.
+                            </td>
+                            <td>
+                                Fortalecer la producción y sostenibilidad de la cadena productiva
+                                del cultivo de cacao en el Municipio de Montelíbano - Córdoba.
+                            </td>
+                            <td>
+                                COP$ 6.027.549.865
+                            </td>
+                            <td>
+                                Programa Colombia Sostenible. Fondo Colombia en Paz
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="gestProyLog" class="mostrar">
+                <h4 class="title-section">
+                    Logros en Gestión de Proyectos
+                </h4>
+                <p class="paragraph">
+                    He tenido la oportunidad no solo de liderar sino de ejercer como coequipero o coordinador en la ejecución de algunos 
+                    proyectos interesantes, de los cuales te presento una breve descripción de su objeto y los resultados obtenidos:
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Item
+                            </th>
+                            <th>
+                                Nombre del Proyecto
+                            </th>
+                            <th>
+                                Objeto
+                            </th>
+                            <th>
+                                Resultados/Logros
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                Proyecto de Alianzas Productivas denominado: Mejoramiento de las Condiciones Productivas y de Beneficio de Productores Cafeteros Orgánicos en la Sierra
+                                Nevada de Santa Marta
+                            </td>
+                            <td>
+                                Fortalecer los procesos productivos, administrativos y comerciales de la organización de productores a través de una estrategia que combina
+                                asistencia técnica, socioempresarial, establecimiento de un acuerdo comercial y el suministro de elementos para mejorar los rendimientos en producción
+                            </td>
+                            <td>
+                                54 productores beneficiados con materiales y equipos para el proceso de producción de café pergamino seco, para la reducción de la contaminación de fuentes hídricas, 
+                                en la transferencia de técnicas y metodologías para incrementar los rendimientos en producción, manejo administrativo y contable. 1 organización de productores fortalecida
+                                en los procesos administrativos y comerciales. 1 acuerdo comercial firmado con condiciones favorables para ambas partes en cuanto a la estabilidad de precios y suministro.
+                                Presupuesto del proyecto ejecutado en el 99.95%. Proyecto ejecutado dentro del plazo de 18 meses.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                Proyecto de reactivación económica: Ejecución de emprendimientos no agropecuarios en el municipio de Agustín Codazzi, Cesar
+                            </td>
+                            <td>
+                                Fortalecimiento de Capacidades Territoriales Mediante la Implementación de un Proyecto Integrador en las Líneas de Reactivación
+                                Económica, Producción Agrícola y Seguridad Alimentaria en el municipio de Agustín Codazzi en el Departamento del Cesar
+                            </td>
+                            <td>
+                                7 unidades productivas dotadas con equipos, herramientas y materiales para el desarrollo de la actividad económica.
+                                43 beneficiarios organizados en las unidades productivas, capacitados en actividades productivas, comercialización y asociatividad.
+                                7 asociaciones constituidas legalmente y fortalecidas en aspectos comerciales, administrativos y técnicos.
+                                Presupuesto ejecutado en el 100%. Proyecto ejecutado dentro del plazo de 8 meses.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="herrGestProy" class="mostrar">
+                <h4 class="title-section">
+                    Herramientas manejadas en Gestión de Proyectos y en Estructuración de proyectos
+                </h4>
+                <p class="paragraph">
+                    Existen numerosas herramientas, técnicas y metodologías que se emplean para llevar a cabo una eficiente gestión de proyectos o gestión 
+                    administrativa. Durante mi experiencia en gestión de proyectos he tenido la oportunidad de trabajar con algunas de estas herramientas 
+                    que me han facilitado la gestión, el seguimiento y control de las actividades y la ejecución del presupuesto. A continuación presento una
+                    breve descripción de las herramientas, técnicas o metodologías así como el proyecto o actividad en la que las he usado:
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Item
+                            </th>
+                            <th>
+                                Herramienta/Técnica/Metodología
+                            </th>
+                            <th>
+                                Nombre del proyecto/actividad en donde se utilizó
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">
+                                1
+                            </td>
+                            <td rowspan="2">
+                                Dashboard/Cuadro de mando
+                            </td>
+                            <td>
+                                Proyecto de Alianzas Productivas: Mejoramiento de las Condiciones Productivas y de Beneficio de Productores Cafeteros Orgánicos en la Sierra
+                                Nevada de Santa Marta
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Proyecto de reactivación económica: Ejecución de emprendimientos no agropecuarios en el municipio de Agustín Codazzi, Cesar
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">
+                                2
+                            </td>
+                            <td rowspan="2">
+                                Plan Operativo/Plan de Acción
+                            </td>
+                            <td>
+                                Proyecto de Alianzas Productivas: Mejoramiento de las Condiciones Productivas y de Beneficio de Productores Cafeteros Orgánicos en la Sierra
+                                Nevada de Santa Marta
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Proyecto de reactivación económica: Ejecución de emprendimientos no agropecuarios en el municipio de Agustín Codazzi, Cesar
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="6">
+                                3
+                            </td>
+                            <td rowspan="6">
+                                Diagnóstico empresarial
+                            </td>
+                            <td>
+                                Acompañamiento socio empresarial a 7 organizaciones de productores agrícolas en el departamento del Cesar. ASOHOFRUCOL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Apicultura, Huertas Orgánicas, siembra y semi- mecanización del proceso de
+                                cultivo de ajonjolí como alternativa para la integración de jóvenes rurales en
+                                las cadenas productivas de los Montes de María. Municipio de Córdoba,
+                                departamento de Bolívar
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mejoramiento del Sistema Productivo Agroecológico del Asocio Yuca, Maíz, Ñame y Frijol y Aprovechamiento de la Materia Prima 
+                                en los Cabildos Indígenas de Libertad, Pajonal, Palo Alto, Berrugas y Rincón del Mar en el municipio de San Onofre, Sucre.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Fortalecimiento de la Producción de Cacao como Alternativa Productiva para la Generación de 
+                                Ingresos y Sostenibilidad Ambiental en el Municipio de Montelíbano, Córdoba.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Fortalecer la gestión organizacional, comercial y administrativa de la Asociación
+                                de Víctimas Unidas por el Campo en el marco del convenio ASOVUCAM - PNUD - Ministerio
+                                del Trabajo
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Asesorar, acompañar y fortalecer el desarollo empresarial de las
+                                unidades productivas resultantes del programa Jóvenes Rurales Emprendedores, en
+                                aspectos administrativos, financieros y comerciales
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">
+                                4
+                            </td>
+                            <td rowspan="3">
+                                Lienzo Canvas
+                            </td>
+                            <td>
+                                Apicultura, Huertas Orgánicas, siembra y semi- mecanización del proceso de
+                                cultivo de ajonjolí como alternativa para la integración de jóvenes rurales en
+                                las cadenas productivas de los Montes de María. Municipio de Córdoba,
+                                departamento de Bolívar
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mejoramiento del Sistema Productivo Agroecológico del Asocio Yuca, Maíz, Ñame y Frijol y Aprovechamiento de la Materia Prima 
+                                en los Cabildos Indígenas de Libertad, Pajonal, Palo Alto, Berrugas y Rincón del Mar en el municipio de San Onofre, Sucre.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Fortalecimiento de la Producción de Cacao como Alternativa Productiva para la Generación de 
+                                Ingresos y Sostenibilidad Ambiental en el Municipio de Montelíbano, Córdoba.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                5
+                            </td>
+                            <td>
+                                Design Thinking
+                            </td>
+                            <td rowspan="3">
+                                Curso de habilidades blandas - SENA
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                6
+                            </td>
+                            <td>
+                                Forth Innovation Method
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                7
+                            </td>
+                            <td>
+                                Intraemprendimiento
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="herrAnDat" class="mostrar">
+                <h4 class="title-section">
+                    Herramientas usadas en Análisis de Datos
+                </h4>
+                <p class="paragraph">
+                    Dentro de las herramientas, plataformas y lenguajes existentes en análisis de datos, he tenido la oportunidad
+                    de trabajar con las siguientes:
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Item
+                            </th>
+                            <th>
+                                Herramienta/Lenguaje/Plataforma
+                            </th>
+                            <th>
+                                Actividad/Proyecto
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                SQL/PostgreSQL
+                            </td>
+                            <td>
+                                Impacto que ejercen el tiempo de estadía, estrés cultural y aislamiento social en los niveles de depresión y en general en la salud mental de los 
+                                estudiantes japoneses que estudian en países extranjeros
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                BigQuery
+                            </td>
+                            <td>
+                                Coursera. Analista de datos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                R
+                            </td>
+                            <td>
+                                Efecto que tienen los factores ambientales sobre el tiempo de crecimiento en un cultivo de lechuga
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                4
+                            </td>
+                            <td>
+                                Python/PySpark/Selenium/PostgreSQL/Pandas
+                            </td>
+                            <td>
+                                Extracción de datos de internet para estructuración de una base de datos a partir de la
+                                información registrada en la página web del Ministerio de Ciencias
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                5
+                            </td>
+                            <td>
+                                Excel/Power Pivot/Power Query
+                            </td>
+                            <td>
+                                Identificación de tendencias de consumo de dispositivos electrónicos. Ejercicio con 1200 registros en 
+                                diferentes regiones de Estados Unidos. Datos simulados
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                6
+                            </td>
+                            <td>
+                                Jupyter Notebook
+                            </td>
+                            <td>
+                                Efecto que tienen los factores ambientales sobre el tiempo de crecimiento en un cultivo de lechuga
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="gestTareas" class="mostrar">
+                <h4 class="title-section">
+                    Herramientas usadas en Gestión de Tareas
+                </h4>
+                <p class="paragraph">
+                    En cuanto a la gestión de tareas, tiempos e indicadores existen numerosas herramientas y plataformas con todo tipo de 
+                    configuraciones. Algunas de ellas son Jira, Trello, Asana, Microsoft Project, Diagrama de Gantt, Slack.
+                    A continuación, puedes encontrar con los que he tenido la oportunidad de trabajar:
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Item
+                            </th>
+                            <th>
+                                Herramienta/Plataforma/Técnica
+                            </th>
+                            <th>
+                                Proyecto/Actividad
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                Asana/Diagrama de Gantt
+                            </td>
+                            <td>
+                                Consultor encargado del Sistema de Gestión de Calidad de la Empresa Luminosos Correa Electronics Ltda
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                Trello/Lean Kanban
+                            </td>
+                            <td>
+                                Gestión de tareas para el desarrollo de la empresa familiar de reposteria y para el cumplimiento de 
+                                los compromisos personales y profesionales
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                Jira
+                            </td>
+                            <td>
+                                Gestión de actividades de la empresa familiar de respostería
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                4
+                            </td>
+                            <td>
+                                Scrum/Mentalidad Ágil
+                            </td>
+                            <td>
+                                Curso de habilidades blandas - SENA
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+    <div>
+        <section>
+            <h2>Contacto</h2>
+            <form action="" class="formulario" onsubmit="return validarFormulario()">
+                <fieldset class="field-set">
+                    <legend style="font-weight: bold;">Formulario de Contacto</legend><br>
+                    <label for="name">Nombre: </label>
+                    <input type="text" name="Nombre" id="name"><hr>
+                    <label for="telefono">Teléfono: </label>
+                    <input type="number" name="Teléfono" id="telefono"><hr>
+                    <label for="email">Correo Electrónico: </label>
+                    <input type="email" name="Correo Electrónico" id="email"><hr>
+                    <label for="message">Mensaje de Contacto: </label>
+                    <textarea name="Mensaje" id="message" rows="10" cols="40"></textarea><hr>
+                    <footer style="background-color: inherit; border: none;">Indique el motivo de contacto</footer><hr>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </section>
+    </div>
+    <hr>
+    <div>
+        <section>
+            <footer id="final">
+                <div>
+                    <h2>
+                        Jair Socarrás Díaz
+                    </h2>
+                    <p>Ingeniero Agroindustrial. Master en Dirección y Planeación Estratégica <br>
+                        Programador Front End <br>
+                        Analista de Datos <br>
+                    Servicios de: Formulación/Estructuración de Planes de negocio y Proyectos <br>
+                    Diseño de páginas web <br>
+                    Análisis de Datos con Python, R y/o SQL
+                </p>
+                </div>
+                <h3>Visita mis redes:</h3>
+                    <a href="https://web.facebook.com/jair.socarras" target="_blank"><img style="margin: 0.8vw;border-radius: 1vw;" src="images/faceb.png" alt="enlace a Facebook" sizes="1" ></a>
+                    <a href="https://x.com/ja1879" target="_blank"><img style="margin: 0.8vw;border-radius: 1vw;" src="images/NewX.png" alt="enlace a X" sizes="1"></a>
+                    <a href="https://www.linkedin.com/in/jair-socarras-538a8832/" target="_blank"><img style="margin: 0.8vw;border-radius: 1vw;" src="images/link.png" alt="enlace a LinkedIn" sizes="1"></a>
+                    <center style="color: antiquewhite;">&copy;Todos los derechos reservados. 2025</center>
+            </footer>
+        </section>
+    </div>
+</body>
+
+</html>

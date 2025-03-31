@@ -1,0 +1,176 @@
+.maincontainer {
+    margin: 0%;
+    background-color: rgb(155, 4, 16);
+    border: solid gray;
+}
+.first_div {
+    background-color:rgb(58, 56, 56);
+    width: 99.5%;
+    height: 15vh;
+    border: inset 0.5vmax wheat;
+    text-align: center;
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+}
+
+header {
+    padding-top: 0vh;
+    font: italic 1.5vw 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #a5a2a2;
+}
+
+.menu {
+    width: 12vw;
+    height: 4vh;
+    padding-top: 0vw;
+    padding-left: 0vw;
+    margin-left: 6.5vw;
+    float: left;
+}
+a {
+    text-decoration: none;
+    color: rgb(18, 18, 19);
+}
+h2 {
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    height: 1vw;
+}
+.nav-menu {
+    width: 12vw;
+    height: 4vh;
+    background-color: inherit;
+    font-family: cursive;
+    font-size: 1.3vw;
+    padding-top: 0vw;
+    padding-bottom: 0.4vh;
+    font-style: italic;
+    color: #f2f2f2;
+    border: outset 0.1vw black;
+}
+.menu .nav-menu {
+    float: none;
+    display: block;
+}
+.nav-menu:hover{
+    cursor: pointer;
+}
+.submenu {
+    width: 9.4vw;
+    height: 10.1vmax;
+    border: solid 0.3vh rgb(150, 148, 148);
+    background-color: #cfcfcf;
+    display: none;
+    padding-right: 1.5vw;
+    padding-left: 1vw;
+    position: absolute;
+}
+.select {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1vw;
+    text-align: left;
+    color: black;
+}
+header > div:nth-child(3) .submenu{
+    height: 8vmax;
+}
+header > div:nth-child(4) .submenu, 
+header > div:nth-child(5) .submenu{
+    height: 14vmax;
+}
+.select:hover {
+    color: blue;
+}
+.menu:hover .submenu {
+    display: block;
+}
+
+.mainInfo {
+    margin-top: 7.5vmax;
+    padding: 0.5vmax;
+    height: 92%;
+    border: inset 0.6vw rgb(178, 144, 34);
+    display: grid;
+    grid-template-columns: 5% 95%;
+    float: none;
+}
+
+.submain {
+    font-size: x-large;
+    text-align: center;
+}
+#closeBoton {
+    width: 19vw;
+    height: 70vw;
+    display: none;
+}
+#menuList {
+    width: 20vw;
+    height: 25vw;
+    background-color: #8d8d8d;
+    padding-top: 1vw;
+    padding-left: 1vw;
+}
+.btonCerrar {
+    width: 1.4vw;
+    height: 1.4vw;
+    border: solid 0.1vmax black;
+    border-radius: 0.2vmax;
+    background-color: aliceblue;
+}
+.btonCerrar:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.subList {
+    list-style-type: none;
+    text-align: left;
+    font-size: 2.3vmax;
+    padding: 0vmax;
+    margin-left: 0vmax;
+}
+
+.enlace {
+    font-size: 1.7vmax;
+    padding-top: 1vw;
+}
+.enlace:hover {
+    cursor: pointer;
+    color: #e61414;
+    text-decoration: underline;
+}
+
+.menuBtn {
+    width: 3vmax;
+    height: 3vmax;
+    margin-left: 0vmax;
+    border: outset 0.3vmax gray;
+    cursor: pointer;
+    background-color: rgb(127, 131, 129);
+}
+.menuBtn:hover {
+    background-color: rgb(212, 203, 203);
+}
+
+.contain2 {
+    background-color:#d4d4d4;
+    border: outset 0.5vmax #354734;
+}
+
+.mostrar {
+    width: 99.8%;
+    height: 99.9%;
+    border: solid 0.1px black;
+    display: none;
+    background-color: #d4d4d4;
+}
+footer {
+    width: 99.9%;
+    border: ridge 0.1vw darkgray;
+    background-color: #0f0e0e;
+    padding-right: 0vw;
+    padding-top: 0vw;
+}
+
